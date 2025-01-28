@@ -12,7 +12,7 @@ ultralyticsPro 项目的完整版代码, 需要订阅后才能获取, 可以加�
 
 ultralyticsPro项目改进系列有：YOLO11，YOLOv8、YOLOv10、RT-DETR 改进模型，改进哪个模型就可以订阅哪个
 
-改进项目合集（改进哪个模型订阅哪个模型即可，订阅后可以看对应的《完整版改进内容》，比如改进 YOLO11 项目，点击以下 YOLO11 项目链接即可）
+改进项目合集（改进哪个模型订阅哪个模型即可，订阅后可以看对应的《完整版改进内容》，比如改进 YOLO11 项目，订阅以下 YOLO11 项目即可）
 
 🍉 - ultralyticsPro系列 - 芒果 YOLOv8 改进项目  👉 **内测价￥129**
 
@@ -25,6 +25,8 @@ ultralyticsPro项目改进系列有：YOLO11，YOLOv8、YOLOv10、RT-DETR 改进
 🍈 - ultralyticsPro系列 - 芒果 YOLOv7 改进项目  👉 **内测价￥89**
 
 🍌 -  ultralyticsPro系列 - 芒果 YOLOv5 改进项目  👉 **内测价￥89**
+
+--------
 
 订阅方式：联系QQ：**2434798737** 或者 👉[bilibili哔哩哔哩](https://space.bilibili.com/1532780812)  私信
 
@@ -66,7 +68,7 @@ bilibili视频教程链接：[bilibili: https://space.bilibili.com/1532780812](h
 
 ### 🏅️🏅️订阅说明
 
-需要订阅的联系QQ：**2434798737** 或者点击链接 通过 👉[bilibili哔哩哔哩](https://space.bilibili.com/1532780812) 私信
+需要订阅的联系QQ：**2434798737** 
 
 如果QQ加不上，可以（点击链接 通过 👉[bilibili哔哩哔哩](https://space.bilibili.com/1532780812) 私信，留下你的QQ并备注订阅YOLO改进项目
 
