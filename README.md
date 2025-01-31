@@ -368,8 +368,17 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
           <li>DIoU_NMS</li>
           <li>GIoU_NMS</li>  
           <li>EIoU_NMS</li>  
-          <li>SIoU_NMS</li>  
-          持续更新中...
+          <li>SIoU_NMS</li>
+          <li>特征金字塔结构改进</li>
+          <li>SPP</li>
+          <li>SPPF</li>
+          <li>ASPP</li>
+          <li>RFB</li>
+          <li>SPPCSPC</li>
+          <li>SPPFCSPC</li>
+          <li>SimSPPF</li>
+      </ul>
+      </td>  
         </ul>
       </td>
     </tr>
@@ -388,27 +397,13 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
   <tbody>
     <tr align="center" valign="bottom">
       <td>
-        <b>空间金字塔池化结构</b>
+        <b>一个yaml文件集成多个创新点组合改进,包含3-5个创新点改进，一键进行实验训练改进</b>
       </td>
       <td>
-        <b>一个yaml文件集成多个创新点组合改进</b>
-      </td>
-      <td>
-        <b>一个yaml文件集成多个创新点组合改进</b>
+        <b>一个yaml文件集成多个创新点组合改进,包含3-5个创新点改进，一键进行实验训练改进</b>
       </td>
     </tr>
     <tr valign="top">
-      <td>
-        <ul>
-        <li>SPP</li>
-        <li>SPPF</li>
-        <li>ASPP</li>
-        <li>RFB</li>
-        <li>SPPCSPC</li>
-        <li>SPPFCSPC</li>
-        <li>SimSPPF</li>
-      </ul>
-      </td>
       <td>
         <ul>
           <li>AdaptiveHead_SDIoU_RCSOSA_SAFPN</li>
