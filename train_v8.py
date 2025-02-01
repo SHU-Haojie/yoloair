@@ -2,8 +2,6 @@ import sys
 import argparse
 import os
 
-sys.path.append(r'E:\GitHubRepo\PR\ultralyticsPro-mango') # Path
-
 from ultralytics import YOLO
 
 def main(opt):
