@@ -134,6 +134,7 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
         <li>RFAConv 卷积</li>
         <li>SPConv 卷积</li>
         <li>TVConv 卷积</li>
+        ...
         <li>更多卷积改进更新中</li>
       </ul>
       </td>
@@ -142,7 +143,17 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
         <li>DynamicATSS 标签分配策略</li>
         <li>ATSS 标签分配策略</li>
         <li>TAL 标签分配策略</li>
+        <li>SimOTA 标签分配策略</li>
+        <li>v5LA 标签分配策略</li>
+        <li>v6LA 标签分配策略</li>
+        <li>v7OTA 标签分配策略</li>
         <li>NMS free 标签分配策略</li>
+        <li>VariFocalNet 标签分配策略</li>
+        <li>YOLO11-NanoDet 标签分配策略</li>
+        <li>GFL 标签分配策略</li>
+        <li>YOLO11-DotD 标签分配策略</li>
+        <li>YOLO11-SimD 标签分配策略</li>
+        <li>v10LA 标签分配策略</li>
         <li>更多Label Alignment不同标签分配策略改进更新中</li>
       </ul>
       </td>
@@ -155,6 +166,25 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
           <li>DynamicHead</li>
           <li>ImplicitHead</li>
           <li>LiteShiftHead</li>
+          <li>SERDet</li>
+          <li>ShareSepHead</li>
+          <li>CoordHead</li>
+          <li>DOHead</li>
+          <li>drhead</li>
+          <li>DSHead</li>
+          <li>DYHead</li>
+          <li>GSHead</li>
+          <li>LADH</li>
+          <li>LDHead</li>
+          <li>ODHead</li>
+          <li>PinwheelHead</li>
+          <li>pwhead</li>
+          <li>RFAHead</li>
+          <li>SAUHead</li>
+          <li>SCHead</li>
+          <li>SPHead</li>
+          <li>TBHead</li>
+          ...
           <li>更多检测头改进更新中</li>
         </ul>
       </td>
@@ -241,23 +271,23 @@ ultralyticsPro 改进项目 汇总了多种主流 YOLO系列检测模型，一�
         <li>RepBiSF结构</li>
         <li>Scale-sequence-feature-fusion结构</li>
         <li>CCFM重构跨尺度特征结构</li>
-        <li>Multi-Branch Auxiliary FPN</li>
-        <li>AFPN</li>
-        <li>EffQAFPN</li>
-        <li>FFD</li>
-        <li>NNeck</li>
-        <li>RepBiFPN</li>
-        <li>RT</li>
-        <li>SAAPAN</li>
-        <li>SAH</li>
-        <li>SAF</li>
-        <li>AAF</li>
-        <li>RepPAN</li>
-        <li>BiFPN</li>
-        <li>test</li>
-        <li>SlimNeck</li>
-        <li>ELANPAN</li>
-        <li>GSNeck</li>
+        <li>Multi-Branch Auxiliary FPN结构</li>
+        <li>AFPN 结构</li>
+        <li>EffQAFPN 结构</li>
+        <li>FFD 结构</li>
+        <li>NNeck 结构</li>
+        <li>RepBiFPN 结构</li>
+        <li>RT 结构</li>
+        <li>SAAPAN 结构</li>
+        <li>SAH 结构</li>
+        <li>SAF 结构</li>
+        <li>AAF 结构</li>
+        <li>RepPAN 结构</li>
+        <li>BiFPN 结构</li>
+        <li>test 结构</li>
+        <li>SlimNeck 结构</li>
+        <li>ELANPAN 结构</li>
+        <li>GSNeck 结构</li>
       </ul>
       </td>
       <td>
