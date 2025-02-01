@@ -1,3 +1,5 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
 import argparse
 
 import cv2
@@ -28,7 +30,7 @@ class YOLOv8:
         self.iou_thres = iou_thres
 
         # Load the class names from the COCO dataset
-        self.classes = yaml_load(check_yaml("coco128.yaml"))["names"]
+        self.classes = yaml_load(check_yaml("coco8.yaml"))["names"]
 
         # Generate a color palette for the classes
         self.color_palette = np.random.uniform(0, 255, size=(len(self.classes), 3))
@@ -46,7 +48,6 @@ class YOLOv8:
         Returns:
             None
         """
-
         # Extract the coordinates of the bounding box
         x1, y1, w, h = box
 
@@ -116,7 +117,6 @@ class YOLOv8:
         Returns:
             numpy.ndarray: The input image with detections drawn on it.
         """
-
         # Transpose and squeeze the output to match the expected shape
         outputs = np.transpose(np.squeeze(output[0]))
 

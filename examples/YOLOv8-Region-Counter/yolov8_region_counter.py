@@ -1,3 +1,5 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
 import argparse
 from collections import defaultdict
 from pathlib import Path
@@ -38,7 +40,7 @@ def mouse_callback(event, x, y, flags, param):
     """
     Handles mouse events for region manipulation.
 
-    Parameters:
+    Args:
         event (int): The mouse event type (e.g., cv2.EVENT_LBUTTONDOWN).
         x (int): The x-coordinate of the mouse pointer.
         y (int): The y-coordinate of the mouse pointer.

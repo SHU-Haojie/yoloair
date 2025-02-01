@@ -23,7 +23,7 @@ def bias_init_with_prob(prior_prob=0.01):
     return float(-np.log((1 - prior_prob) / prior_prob))  # return bias_init
 
 
-def linear_init_(module):
+def linear_init(module):
     """Initialize the weights and biases of a linear module."""
     bound = 1 / math.sqrt(module.weight.shape[0])
     uniform_(module.weight, -bound, bound)
@@ -46,11 +46,10 @@ def multi_scale_deformable_attn_pytorch(
     attention_weights: torch.Tensor,
 ) -> torch.Tensor:
     """
-    Multi-scale deformable attention.
+    Multiscale deformable attention.
 
     https://github.com/IDEA-Research/detrex/blob/main/detrex/layers/multi_scale_deform_attn.py
     """
-
     bs, _, num_heads, embed_dims = value.shape
     _, num_queries, num_heads, num_levels, num_points, _ = sampling_locations.shape
     value_list = value.split([H_ * W_ for H_, W_ in value_spatial_shapes], dim=1)

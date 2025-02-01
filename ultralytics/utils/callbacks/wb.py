@@ -9,10 +9,6 @@ try:
     import wandb as wb
 
     assert hasattr(wb, "__version__")  # verify package is not directory
-
-    import numpy as np
-    import pandas as pd
-
     _processed_plots = {}
 
 except (ImportError, AssertionError):
@@ -23,8 +19,9 @@ def _custom_table(x, y, classes, title="Precision Recall Curve", x_title="Recall
     """
     Create and log a custom metric visualization to wandb.plot.pr_curve.
 
-    This function crafts a custom metric visualization that mimics the behavior of wandb's default precision-recall curve
-    while allowing for enhanced customization. The visual metric is useful for monitoring model performance across different classes.
+    This function crafts a custom metric visualization that mimics the behavior of the default wandb precision-recall
+    curve while allowing for enhanced customization. The visual metric is useful for monitoring model performance across
+    different classes.
 
     Args:
         x (List): Values for the x-axis; expected to have length N.
@@ -37,7 +34,9 @@ def _custom_table(x, y, classes, title="Precision Recall Curve", x_title="Recall
     Returns:
         (wandb.Object): A wandb object suitable for logging, showcasing the crafted metric visualization.
     """
-    df = pd.DataFrame({"class": classes, "y": y, "x": x}).round(3)
+    import pandas  # scope for faster 'import ultralytics'
+
+    df = pandas.DataFrame({"class": classes, "y": y, "x": x}).round(3)
     fields = {"x": "x", "y": "y", "class": "class"}
     string_fields = {"title": title, "x-axis-title": x_title, "y-axis-title": y_title}
     return wb.plot_table(
@@ -64,8 +63,8 @@ def _plot_curve(
 
     Args:
         x (np.ndarray): Data points for the x-axis with length N.
-        y (np.ndarray): Corresponding data points for the y-axis with shape CxN, where C represents the number of classes.
-        names (list, optional): Names of the classes corresponding to the y-axis data; length C. Defaults to an empty list.
+        y (np.ndarray): Corresponding data points for the y-axis with shape CxN, where C is the number of classes.
+        names (list, optional): Names of the classes corresponding to the y-axis data; length C. Defaults to [].
         id (str, optional): Unique identifier for the logged data in wandb. Defaults to 'precision-recall'.
         title (str, optional): Title for the visualization plot. Defaults to 'Precision Recall Curve'.
         x_title (str, optional): Label for the x-axis. Defaults to 'Recall'.
@@ -76,6 +75,8 @@ def _plot_curve(
     Note:
         The function leverages the '_custom_table' function to generate the actual visualization.
     """
+    import numpy as np
+
     # Create new x
     if names is None:
         names = []
@@ -99,7 +100,7 @@ def _plot_curve(
 
 def _log_plots(plots, step):
     """Logs plots from the input dictionary if they haven't been logged already at the specified step."""
-    for name, params in plots.items():
+    for name, params in plots.copy().items():  # shallow copy to prevent plots dict changing during iteration
         timestamp = params["timestamp"]
         if _processed_plots.get(name) != timestamp:
             wb.run.log({name.stem: wb.Image(str(name))}, step=step)
@@ -108,7 +109,7 @@ def _log_plots(plots, step):
 
 def on_pretrain_routine_start(trainer):
     """Initiate and start project if module is present."""
-    wb.run or wb.init(project=trainer.args.project or "YOLOv8", name=trainer.args.name, config=vars(trainer.args))
+    wb.run or wb.init(project=trainer.args.project or "Ultralytics", name=trainer.args.name, config=vars(trainer.args))
 
 
 def on_fit_epoch_end(trainer):
@@ -136,17 +137,19 @@ def on_train_end(trainer):
     if trainer.best.exists():
         art.add_file(trainer.best)
         wb.run.log_artifact(art, aliases=["best"])
-    for curve_name, curve_values in zip(trainer.validator.metrics.curves, trainer.validator.metrics.curves_results):
-        x, y, x_title, y_title = curve_values
-        _plot_curve(
-            x,
-            y,
-            names=list(trainer.validator.metrics.names.values()),
-            id=f"curves/{curve_name}",
-            title=curve_name,
-            x_title=x_title,
-            y_title=y_title,
-        )
+    # Check if we actually have plots to save
+    if trainer.args.plots:
+        for curve_name, curve_values in zip(trainer.validator.metrics.curves, trainer.validator.metrics.curves_results):
+            x, y, x_title, y_title = curve_values
+            _plot_curve(
+                x,
+                y,
+                names=list(trainer.validator.metrics.names.values()),
+                id=f"curves/{curve_name}",
+                title=curve_name,
+                x_title=x_title,
+                y_title=y_title,
+            )
     wb.run.finish()  # required or run continues on dashboard
 
 
