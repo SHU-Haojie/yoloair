@@ -72,7 +72,7 @@ bilibili视频教程链接：[bilibili: https://space.bilibili.com/1532780812](h
 
 如果QQ加不上，可以（点击链接 通过 👉[bilibili哔哩哔哩](https://space.bilibili.com/1532780812) 私信，留下你的QQ并备注订阅YOLO改进项目
 
-![46f4207a62903e320d1ec96a160697d.jpg](https://cdn.nlark.com/yuque/0/2024/jpeg/42553146/1711106875724-81fbf441-e6b2-4a67-b98d-76ac81c19909.jpeg?x-oss-process=image%2Fwatermark%2Ctype_d3F5LW1pY3JvaGVp%2Csize_24%2Ctext_dWx0cmFseXRpY3NQcm8%3D%2Ccolor_FFFFFF%2Cshadow_50%2Ct_80%2Cg_se%2Cx_10%2Cy_10%2Fformat%2Cwebp)
+![46f4207a62903e320d1ec96a160697d.jpg](https://i-blog.csdnimg.cn/direct/e63b2d46962d4064a1107624fc98e886.png)
 扫描QQ二维码也可
 
 
