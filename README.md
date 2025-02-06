@@ -653,6 +653,29 @@ $ python train.py ultralytics/cfg_yolo11/YOLO11/yolo11.yaml
 $ python predict.py
 ```
 
+----------
+
+### Autodl云服务器GPU镜像, 无需配置环境, 一键运行YOLO系列训练、推理、改进🚀
+
+**官方YOLO系列版本模型镜像-YOLO11、YOLOv8、YOLOv10、YOLOv9、YOLOv7、YOLOv5以及RT-DETR模型**
+
+最新稳定版本，环境已经配置好，可一键运行YOLO系列训练、推理、改进
+
+官方 YOLO11镜像：[ultralytics/YOLO11: 官方YOLO11最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLO11)
+
+官方 YOLOv8镜像：[ultralytics/YOLOv8: 官方YOLOv8最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLOv8)
+
+官方YOLOv10镜像：[THU-MIG/yolov10: 官方YOLOv10项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/THU-MIG/yolov10/main)
+
+官方YOLOv9镜像：[官方YOLOv9代码：WongKinYiu/yolov9一键训练官方YOLOv9模型](https://www.codewithgpu.com/i/WongKinYiu/yolov9/main)
+
+官方YOLOv7镜像：[官方YOLOv7项目代码：最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/WongKinYiu/yolov7/yolov7)
+
+官方YOLOv5镜像：[ultralytics/yolov5: 官方YOLOv5项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/yolov5/v5)
+
+
+RT-DETR镜像：[ultralytics/RTDETR: U版 RT-DET项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/u/iscyy)
+
 ______________________________________________________________________
 
 
