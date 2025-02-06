@@ -661,9 +661,9 @@ $ python predict.py
 
 最新稳定版本，环境已经配置好，可一键运行YOLO系列训练、推理、改进
 
-官方 YOLO11镜像：[ultralytics/YOLO11: 官方YOLO11最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLO11)
+官方YOLO11镜像：[ultralytics/YOLO11: 官方YOLO11最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLO11)
 
-官方 YOLOv8镜像：[ultralytics/YOLOv8: 官方YOLOv8最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLOv8)
+官方YOLOv8镜像：[ultralytics/YOLOv8: 官方YOLOv8最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/ultralytics/YOLOv8)
 
 官方YOLOv10镜像：[THU-MIG/yolov10: 官方YOLOv10项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/THU-MIG/yolov10/main)
 
@@ -671,10 +671,10 @@ $ python predict.py
 
 官方YOLOv7镜像：[官方YOLOv7项目代码：最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/WongKinYiu/yolov7/yolov7)
 
-官方YOLOv5镜像：[ultralytics/yolov5: 官方YOLOv5项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/yolov5/v5)
+官方 YOLOv5 镜像：[ultralytics/yolov5: 官方YOLOv5项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/i/ultralytics/yolov5/v5)
 
 
-RT-DETR镜像：[ultralytics/RTDETR: U版 RT-DET项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/u/iscyy)
+U版 RT-DETR 镜像：[ultralytics/RTDETR: U版 RT-DET项目 最新稳定版本，可一键运行训练&推理&改进](https://www.codewithgpu.com/u/iscyy)
 
 ______________________________________________________________________
 
