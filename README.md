@@ -12,7 +12,7 @@ ultralyticsPro 项目的完整版代码, 需要订阅后才能获取, 可以加�
 
 ultralyticsPro项目改进系列有：YOLO11，YOLOv8、YOLOv10、RT-DETR 改进模型，改进哪个模型就可以订阅哪个
 
-##### - 芒果YOLO改进项目: ultralyticsPro
+### - 芒果YOLO改进项目: ultralyticsPro
 
 改进项目合集（改进哪个模型就订阅哪个模型即可，订阅后可以看对应的《完整版改进项目源码》，比如改进 YOLO11 项目，订阅以下 YOLO11 项目即可）
 
@@ -33,7 +33,7 @@ ultralyticsPro项目改进系列有：YOLO11，YOLOv8、YOLOv10、RT-DETR 改进
 
 ---------------------
 
-##### - New：芒果YOLO改进 - 剪枝项目（以下任意YOLO版本模型之一，均为￥ 45）4月30号之前
+### - New：芒果YOLO改进 - 剪枝项目（以下任意YOLO版本模型之一，均为￥ 45）4月30号之前
 （订阅了以上改进项目之一 的减 - 10，仅需 ￥ 35）
 
 支持
