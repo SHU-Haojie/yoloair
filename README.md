@@ -1,6 +1,6 @@
 🔥🔥🔥 专注于YOLO11，YOLOv8、YOLOv10、RT-DETR、YOLOv7、YOLOv5改进模型，Support to improve backbone, neck, head, loss, IoU, NMS and other modules🚀
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/144ee033f33843308131be591222dbb3.png#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/0df9ce2fcc1f4b9f87abc20b83ac785d.png)
 
 🌟 全新的YOLO系列改进项目**ultralyticsPro**来袭，最新改进点更新🚀2025
 
@@ -12,19 +12,54 @@ ultralyticsPro 项目的完整版代码, 需要订阅后才能获取, 可以加�
 
 ultralyticsPro项目改进系列有：YOLO11，YOLOv8、YOLOv10、RT-DETR 改进模型，改进哪个模型就可以订阅哪个
 
-改进项目合集（改进哪个模型订阅哪个模型即可，订阅后可以看对应的《完整版改进内容》，比如改进 YOLO11 项目，订阅以下 YOLO11 项目即可）
+##### - 芒果YOLO改进项目: ultralyticsPro
 
-🍉 - ultralyticsPro系列 - 芒果 YOLOv8 改进项目  👉 **内测价￥129**
+改进项目合集（改进哪个模型就订阅哪个模型即可，订阅后可以看对应的《完整版改进项目源码》，比如改进 YOLO11 项目，订阅以下 YOLO11 项目即可）
 
-🍇 - ultralyticsPro系列 - 芒果 YOLO11 改进项目  👉 **内测价￥69**
+🍈 - ultralyticsPro系列 - 芒果YOLOv12改进项目： 👉 **优惠价￥ 58**（新上）
 
-🍈 - ultralyticsPro系列 - 芒果 YOLOv10 改进项目  👉 **内测价￥89**
+🍇 - ultralyticsPro系列 - 芒果 YOLO11 改进项目：  👉 **优惠价￥ 68**
 
-🍌 -  ultralyticsPro系列 - 芒果 RT-DETR 改进项目  👉 **内测价￥59**
+🍉 - ultralyticsPro系列 - 芒果 YOLOv8 改进项目：  👉 **优惠价￥ 98**
 
-🍈 - ultralyticsPro系列 - 芒果 YOLOv7 改进项目  👉 **内测价￥89**
+🍈 - ultralyticsPro系列 - 芒果YOLOv10改进项目： 👉 **优惠价￥ 68**
 
-🍌 -  ultralyticsPro系列 - 芒果 YOLOv5 改进项目  👉 **内测价￥89**
+🍌 - ultralyticsPro系列 - 芒果RT-DETR改进项目： 👉 **优惠价￥ 58**
+
+🍈 - ultralyticsPro系列 - 芒果 YOLOv7 改进项目：  👉 **优惠价￥ 68**
+
+🍌 - ultralyticsPro系列 - 芒果 YOLOv5 改进项目：  👉 **优惠价￥ 68**
+需要订阅多个项目可优惠
+
+---------------------
+
+##### - New：芒果YOLO改进 - 剪枝项目（以下任意YOLO版本模型之一，均为￥ 45）4月30号之前
+（订阅了以上改进项目之一 的减 - 10，仅需 ￥ 35）
+
+支持
+🍈 - 芒果YOLOv12剪枝项目
+🍈 - 芒果 YOLO11 剪枝项目
+🍈 - 芒果 YOLOv8 剪枝项目
+🍈 - 芒果 YOLOv10 剪枝项目
+🍈 - 芒果 RT-DETR 剪枝项目
+🍈 - 以及 基于ultralytics库的算法均支持
+
+支持 目标检测Detect、旋转检测OBB、实例分割OBB、姿态估计Pose 等多任务剪枝策略(任一)
+
+包含的剪枝方法
+- L1范数 剪枝
+- L2范数 剪枝
+- DepGraph 剪枝
+- Magnitude 剪枝
+- Slimming 通道剪枝
+- BNScale（网络瘦身学习）剪枝策略
+- Random （随机重要性估计）剪枝
+- LAMP（基于幅度修剪的层自适应稀疏性）剪枝
+- FPGM（通过几何中值过滤器剪枝）剪枝
+- Gaussian 剪枝
+- ...
+
+更多新剪枝策略，持续更新中...
 
 --------
 
